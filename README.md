@@ -1,8 +1,12 @@
-# Comfy UI Node Template
-This is a template for creating custom nodes for the Comfy UI stable diffusion client.
+# Comfy UI embed_stacker_node
+This is a multi-embedding picker/stacker which is mostly copied from "tropfchen" 's embedding picker node. 
+
+Instead of prepending a bunch of nodes together to get a stack, just use them all in the same node.
+
+The weight slider adjusts all 4 nodes, together.
 
 ## Description
-This Python script is an optional add-on to the Comfy UI stable diffusion client. It introduces quality of life improvements by providing variable nodes and shared global variables.
+This Python script is an optional add-on to the Comfy UI stable diffusion client. 
 
 ## Getting Started
 Import into the custom nodes directory of your Comfy UI client.
